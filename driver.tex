@@ -1,0 +1,33 @@
+\documentclass{amsart}
+\usepackage[T1]{fontenc}
+
+\author{Alex Nelson}
+\email{pqnelson@gmail.com}
+\urladdr{https://pqnelson.github.io}
+\dateposted{\today}
+\thanks{\compiledTimestamp}
+
+\usepackage{noweb}
+\usepackage{mizar}
+\usepackage{lie-miz}
+% Note to self: this tex document follows the hack discussed by Cameron Smith
+% http://www.literateprogramming.com/best/nowebfi.html
+%
+% We extract the source code from the files by:
+%
+% notangle -R<chunk name> file_1.nw ... file_n.nw > output_file.xxx
+\begin{document}
+
+\input{tex/lie-001}
+
+
+
+%% \nocite{*}
+%% \bibliographystyle{amsalpha}
+%% \bibliography{driver}
+%% \nocitemml{*}
+%% \bibliographystylemml{mml}
+%% \bibliographymml{mml}
+
+
+\end{document}

@@ -1,0 +1,78 @@
+% -*- mode: poly-noweb; noweb-code-mode: mizar-mode; -*-
+\section{Environment}
+
+<<Environment for [[lie_1.miz]]>>=
+environ
+
+  <<[[lie_1.miz]] vocabularies>>
+
+  <<[[lie_1.miz]] constructors>>
+
+  <<[[lie_1.miz]] notations>>
+
+  <<[[lie_1.miz]] registrations>>
+
+  <<[[lie_1.miz]] requirements>>
+
+  <<[[lie_1.miz]] definitions>>
+
+  <<[[lie_1.miz]] equalities>>
+
+  <<[[lie_1.miz]] expansions>>
+
+  <<[[lie_1.miz]] theorems>>
+
+  <<[[lie_1.miz]] schemes>>
+
+@
+
+\subsection{Vocabularies}
+<<[[lie_1.miz]] vocabularies>>=
+vocabularies ;
+@
+
+\subsection{Constructors}
+<<[[lie_1.miz]] constructors>>=
+constructors ;
+@
+
+\subsection{Notations}
+<<[[lie_1.miz]] notations>>=
+notations ;
+@
+
+\subsection{Registrations}
+<<[[lie_1.miz]] registrations>>=
+registrations ;
+@
+
+\subsection{Requirements}
+<<[[lie_1.miz]] requirements>>=
+requirements BOOLE, SUBSET, NUMERALS, ARITHM, REAL;
+@
+
+\subsection{Definitions}
+<<[[lie_1.miz]] definitions>>=
+definitions ;
+@
+
+\subsection{Equalities}
+<<[[lie_1.miz]] equalities>>=
+equalities ;
+@
+
+\subsection{Expansions}
+<<[[lie_1.miz]] expansions>>=
+expansions ;
+@
+
+\subsection{Theorems}
+<<[[lie_1.miz]] theorems>>=
+theorems ;
+@
+
+\subsection{Schemes}
+<<[[lie_1.miz]] schemes>>=
+schemes ;
+@
+

@@ -1,0 +1,52 @@
+% -*- mode: poly-noweb; noweb-code-mode: mizar-mode; -*-
+\title{Lie Rings and Algebras}
+\date{January 28, 2024}
+% \subjclass{20-04, 20E99}
+
+\begin{abstract}
+This is the first in a series of articles about formalizing Lie algebras
+in Mizar.
+\end{abstract}
+
+\maketitle
+\tableofcontents
+
+\section{Mizar Article}
+
+The basic skeleton for a Mizar article remains the same: we have some
+header comments concerning the author and title and copyright
+information, then the environment directives for the article, and then
+the formalization proper as found in the article's body.
+
+<<TEXT/lie-1.miz>>=
+<<License for [[lie_1.miz]]>>
+
+<<Environment for [[lie_1.miz]]>>
+
+<<[[lie_1.miz]] article body>>
+@
+
+\bigskip
+\subsection*{Vocabulary File}
+The vocabulary file starts with nothing in it.
+
+<<DICT/lie-1.voc>>=
+@
+
+\subsection*{License}
+The license for the MML seems to be the same for each article, I will
+just copy it over.
+
+<<License for [[lie_1.miz]]>>=
+:: Lie Rings and Algebras
+::  by Alexander M. Nelson
+::
+:: This code can be distributed under the GNU General Public Licence
+:: version 3.0 or later, or the Creative Commons Attribution-ShareAlike
+:: License version 3.0 or later, subject to the binding interpretation
+:: detailed in file COPYING.interpretation.
+:: See COPYING.GPL and COPYING.CC-BY-SA for the full text of these
+:: licenses, or see http://www.gnu.org/licenses/gpl.html and
+:: http://creativecommons.org/licenses/by-sa/3.0/.
+
+@
